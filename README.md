@@ -12,7 +12,7 @@ args["count"] = 5;
 
 var data = {
 	action: 'twitter_api',
-  	account: 'telecomstweet',
+  	account: 'accountname',
     query: 'search/tweets',
     args: args
 }

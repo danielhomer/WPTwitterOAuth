@@ -14,7 +14,7 @@ var data = {
 	action: 'twitter_api',
   	account: 'telecomstweet',
     query: 'search/tweets',
-    args: args,
+    args: args
 }
 
 $.post('/wp-admin/admin-ajax.php', data, function(response) {
